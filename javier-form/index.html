@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Solicitud de Empleo</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Solicitud de Empleo</h1>
+        <p>Por favor, completa el formulario para aplicar a un puesto en nuestra empresa.</p>
+    </header>
+
+    <form action="procesar_solicitud.php" method="post">
+        <!-- Información personal -->
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required><br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono"><br>
+        </fieldset>
+
+        <!-- Experiencia laboral -->
+        <fieldset>
+            <legend>Experiencia Laboral</legend>
+            <label for="experiencia">Resumen de Experiencia:</label><br>
+            <textarea id="experiencia" name="experiencia" rows="4" cols="50" required></textarea><br>
+        </fieldset>
+
+        <!-- Educación -->
+        <fieldset>
+            <legend>Educación</legend>
+            <label for="educacion">Nivel de Educación:</label>
+            <select id="educacion" name="educacion" required>
+                <option value="secundaria">Secundaria</option>
+                <option value="preparatoria">Preparatoria</option>
+                <option value="licenciatura">Licenciatura</option>
+                <option value="posgrado">Posgrado</option>
+            </select><br>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Adjuntar CV (Formato PDF o Word):</legend>
+            <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required><br>
+        </fieldset>
+
+        <input type="submit" value="Enviar Solicitud">
+    </form>
+
+</body>
+</html>

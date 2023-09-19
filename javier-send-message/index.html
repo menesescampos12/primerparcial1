@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Mensaje</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Enviar un Mensaje</h1>
+    </header>
+
+    <section id="formulario">
+        <h2>Formulario de Contacto</h2>
+        <form id="miFormulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
+
+            <input type="submit" value="Enviar Mensaje">
+        </form>
+
+        <div id="respuesta"></div>
+    </section>
+
+    <script>
+        const formulario = document.getElementById("miFormulario");
+        const respuesta = document.getElementById("respuesta");
+
+        formulario.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const nombre = document.getElementById("nombre").value;
+            const email = document.getElementById("email").value;
+            const mensaje = document.getElementById("mensaje").value;
+
+            respuesta.innerHTML = `
+                <p>¡Gracias, ${nombre}!</p>
+                <p>Hemos recibido tu mensaje:</p>
+                <p>Correo Electrónico: ${email}</p>
+                <p>Mensaje: ${mensaje}</p>
+            `;
+        });
+    </script>
+
+
+</body>
+</html>

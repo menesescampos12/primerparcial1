@@ -1,0 +1,65 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la lista de personajes */
+.character-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.character-list-item {
+    background: linear-gradient(135deg, #3498db, #c0392b);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.character-list-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #c0392b, #3498db);
+}
+
+/* Estilos para los títulos y texto */
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #fff;
+}
+
+p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Estilos para las imágenes */
+.character-image {
+    max-width: 100%;
+    border-radius: 10px;
+}

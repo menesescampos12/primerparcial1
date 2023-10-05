@@ -29,26 +29,6 @@
         <div id="respuesta"></div>
     </section>
 
-    <script>
-        const formulario = document.getElementById("miFormulario");
-        const respuesta = document.getElementById("respuesta");
-
-        formulario.addEventListener("submit", function(event) {
-            event.preventDefault();
-
-            const nombre = document.getElementById("nombre").value;
-            const email = document.getElementById("email").value;
-            const mensaje = document.getElementById("mensaje").value;
-
-            respuesta.innerHTML = `
-                <p>¡Gracias, ${nombre}!</p>
-                <p>Hemos recibido tu mensaje:</p>
-                <p>Correo Electrónico: ${email}</p>
-                <p>Mensaje: ${mensaje}</p>
-            `;
-        });
-    </script>
-
-
+<script src="script.js"></script>
 </body>
 </html>

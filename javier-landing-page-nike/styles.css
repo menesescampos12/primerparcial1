@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container--info {
+    flex: 1;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.container--actions {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+/* Imagen del zapato */
+.img--shoe {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contenedor de zapatos */
+.container--shoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.container--shoes img {
+    width: 30%;
+}

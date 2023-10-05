@@ -1,0 +1,89 @@
+/* Estilo básico para la página de Detalles del Producto */
+
+/* Reset de margen y padding para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para el contenedor principal */
+#producto {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilo para la imagen del producto */
+#producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para el botón de "Agregar al Carrito" */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo para los enlaces en la lista de características */
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #0056b3;
+}
+
+/* Estilo para los títulos y texto */
+h2, h3, p {
+    margin: 10px 0;
+}
+
+/* Estilo para los elementos fuertes (strong) */
+strong {
+    font-weight: bold;
+}
+
+/* Estilo para la lista de características */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo para los botones al pasar el mouse */
+button:hover {
+    background-color: #0056b3;
+}

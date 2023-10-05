@@ -1,0 +1,80 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Contenedor de las películas */
+#peliculas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Cada artículo de película */
+.pelicula {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.pelicula:hover {
+    transform: translateY(-5px);
+}
+
+.pelicula img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pelicula-info {
+    padding: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+p {
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+/* Enlaces para ver trailers */
+.pelicula a {
+    display: block;
+    background-color: #fc1e29;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.pelicula a:hover {
+    background-color: #2980b9;
+}

@@ -1,0 +1,101 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #ff2c2c;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #0d0d0d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Servicios */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Galería de fotos */
+.barberia-image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid #0e0e0e;
+    border-radius: 5px;
+}
+
+/* Estilos para el enlace de "Contacto" */
+nav a {
+    background-color: #de5e5e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #6eb5e1;
+}
+
+/* Estilos para los títulos de los servicios */
+h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #5b83ea;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos para la lista de fotos */
+.container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+}

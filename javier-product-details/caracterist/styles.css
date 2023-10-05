@@ -1,0 +1,63 @@
+/* Estilo básico para la página de Características del Teléfono */
+
+/* Reset de margen y padding para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para el contenedor principal */
+#caracteristicas {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para los títulos y texto */
+h1, h2, h3, p {
+    margin: 10px 0;
+}
+
+/* Estilo para los elementos fuertes (strong) */
+strong {
+    font-weight: bold;
+}
+
+/* Estilo para la lista de especificaciones técnicas */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

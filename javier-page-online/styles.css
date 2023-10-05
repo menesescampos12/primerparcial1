@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Estilos de la imagen principal */
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos del contenido principal */
+.main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Estilos de la sección destacada */
+.destacado {
+    text-align: center;
+    padding: 20px;
+}
+
+.destacado h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.destacado p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Estilos de las categorías */
+.categorias {
+    margin-top: 20px;
+}
+
+.categorias h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos de las ofertas especiales (puedes agregar más estilos aquí) */
+.ofertas h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos del pie de página (si lo deseas) */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos de enlaces */
+a {
+    color: #0078d4;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #004e99;
+}
